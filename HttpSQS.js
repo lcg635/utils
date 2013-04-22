@@ -22,7 +22,7 @@ HttpSQS.prototype.push = function(value, cb) {
 };
 
 //从队列取出
-HttpSQS.prototype.pop = function(cb) {
+HttpSQS.prototype.shift = function(cb) {
 	this.sendCommand({
 		name: this.queueName,
 		opt: 'get'
