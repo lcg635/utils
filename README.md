@@ -4,7 +4,7 @@ utils
 #Reconnector
 断线重连
 
-`javascript`
+```javascript
   var dnode = require('dnode');
   var Reconnector = require('Reconnector');
   var logger = require('winston');
